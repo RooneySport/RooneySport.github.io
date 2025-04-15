@@ -13,138 +13,121 @@
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
 
+    <!-- Style Catalog-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
-    <style>
-        .card-image {
-            height: 200px;
-            object-fit: cover;
-            border-radius: 12px;
-            width: 100%;
-            padding: 12px;
-        }
-        
-        .product-card {
-            border-radius: 16px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        
-        .product-card:hover {
-            transform: scale(1.03);
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/style-catalog.css">
 </head>
 <body class="bg-gray-100 min-h-screen">
-    <!--header-->
-  <header id="site-header" class="fixed-top">
-    <!-- //top header -->
-    <div class="container">
-      <nav class="navbar navbar-expand-lg stroke px-0 py-lg-0">
-        <h1><a class="navbar-brand" href="index.html">
-            Rooney<span class="sub-logo">S</span>port</span>
-          </a></h1>
-        <!-- if logo is image enable this   
-    <a class="navbar-brand" href="#index.html">
-        <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-    </a> -->
-        <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
-          data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-          <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-        </button>
+  <!--header-->
+    <header id="site-header" class="fixed-top">
+        <!-- //top header -->
+        <div class="container">
+        <nav class="navbar navbar-expand-lg stroke px-0 py-lg-0">
+            <h1><a class="navbar-brand" href="index.html">
+                Rooney<span class="sub-logo">S</span>port</span>
+            </a></h1>
+            <!-- if logo is image enable this   
+        <a class="navbar-brand" href="#index.html">
+            <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+        </a> -->
+            <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+            data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+            <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mx-lg-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mx-lg-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
 
-            <!--
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            -->
-            <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contacto</a>
-            </li>
-            <!--/search-right-->
-            <li class="nav-item search-right ml-lg-3">
-              <!-- /header-top-inn-->
-              <div class="menu-overlay-left">
-                <div class="two-pops">
-                  <!-- overlay-menuv-menu -->
-                  <div class="overlay-menuv-hny">
-                    <input type="checkbox" id="op"></input>
-                    <div class="side-menu-hny mt-lg-3">
-                      <label for="op" class="menuopen">
-                        <span class="fa fa-search" aria-hidden="true"></span></label>
-                    </div>
-                    <div class="overlay-menuv overlay-menuv-hugeinc">
-                      <label for="op" class="menuclose"><span class="fa fa-times" aria-hidden="true"></span></label>
-                      <div class="side-show-content text-left">
+                <!--
+                <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+                </li>
+                -->
+                <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contacto</a>
+                </li>
+                <!--/search-right-->
+                <li class="nav-item search-right ml-lg-3">
+                <!-- /header-top-inn-->
+                <div class="menu-overlay-left">
+                    <div class="two-pops">
+                    <!-- overlay-menuv-menu -->
+                    <div class="overlay-menuv-hny">
+                        <input type="checkbox" id="op"></input>
+                        <div class="side-menu-hny mt-lg-3">
+                        <label for="op" class="menuopen">
+                            <span class="fa fa-search" aria-hidden="true"></span></label>
+                        </div>
+                        <div class="overlay-menuv overlay-menuv-hugeinc">
+                        <label for="op" class="menuclose"><span class="fa fa-times" aria-hidden="true"></span></label>
+                        <div class="side-show-content text-left">
 
-                        <div class="quick-links-side mb-5 pt-lg-5">
-                          <h3 class="side-title">Search Here</h3>
-                          <form action="#" method="post" class="search-box">
-                            <input type="search" placeholder="Keyword" name="search" required="required" autofocus="">
-                            <button type="submit" class="btn btn-style mt-3">Search</button>
-                          </form>
+                            <div class="quick-links-side mb-5 pt-lg-5">
+                            <h3 class="side-title">Search Here</h3>
+                            <form action="#" method="post" class="search-box">
+                                <input type="search" placeholder="Keyword" name="search" required="required" autofocus="">
+                                <button type="submit" class="btn btn-style mt-3">Search</button>
+                            </form>
 
+                            </div>
+
+                            <div class="quick-links-side follow-us mb-5">
+                            <h3 class="side-title">Follow Us</h3>
+                            <ul class="social-icons-top">
+                                <li><a class="facebook" href="#"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                                </li>
+                                <li><a class="twitter" href="#"><span class="fa fa-twitter" aria-hidden="true"></span></a>
+                                </li>
+                                <li><a class="google" href="#"><span class="fa fa-google-plus"
+                                    aria-hidden="true"></span></a>
+                                </li>
+                                <li><a class="instagram" href="#"><span class="fa fa-instagram"
+                                    aria-hidden="true"></span></a>
+                                </li>
+                            </ul>
+                            </div>
                         </div>
 
-                        <div class="quick-links-side follow-us mb-5">
-                          <h3 class="side-title">Follow Us</h3>
-                          <ul class="social-icons-top">
-                            <li><a class="facebook" href="#"><span class="fa fa-facebook" aria-hidden="true"></span></a>
-                            </li>
-                            <li><a class="twitter" href="#"><span class="fa fa-twitter" aria-hidden="true"></span></a>
-                            </li>
-                            <li><a class="google" href="#"><span class="fa fa-google-plus"
-                                  aria-hidden="true"></span></a>
-                            </li>
-                            <li><a class="instagram" href="#"><span class="fa fa-instagram"
-                                  aria-hidden="true"></span></a>
-                            </li>
-                          </ul>
                         </div>
-                      </div>
-
                     </div>
-                  </div>
-                </div>
-                <!-- overlay-menuv-menu -->
-            </li>
-            <!--//search-right-->
-          </ul>
-          <!--/right-btn-->
-          <div class="top-righthny-buttton">
-            <a class="btn btn-style btn-white mr-lg-5" href="catalog.html">
-              Catálogo <span class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
-          </div>
-          <!--/right-btn-->
-        </div>
-        <!-- toggle switch for light and dark theme -->
-        <div class="mobile-position">
-          <nav class="navigation">
-            <div class="theme-switch-wrapper">
-              <label class="theme-switch" for="checkbox">
-                <input type="checkbox" id="checkbox">
-                <div class="mode-container">
-                  <i class="gg-sun"></i>
-                  <i class="gg-moon"></i>
-                </div>
-              </label>
+                    </div>
+                    <!-- overlay-menuv-menu -->
+                </li>
+                <!--//search-right-->
+            </ul>
+            <!--/right-btn-->
+            <div class="top-righthny-buttton">
+                <a class="btn btn-style btn-white mr-lg-5" href="catalog.html">
+                Catálogo <span class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
             </div>
-          </nav>
+            <!--/right-btn-->
+            </div>
+            <!-- toggle switch for light and dark theme -->
+            <div class="mobile-position">
+            <nav class="navigation">
+                <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <div class="mode-container">
+                    <i class="gg-sun"></i>
+                    <i class="gg-moon"></i>
+                    </div>
+                </label>
+                </div>
+            </nav>
+            </div>
+            <!-- //toggle switch for light and dark theme -->
+        </nav>
         </div>
-        <!-- //toggle switch for light and dark theme -->
-      </nav>
-    </div>
-  </header>
+    </header>
   <!--/header-->
 
   <!--/breadcrumb-bg-->
@@ -158,6 +141,31 @@
   </div>
 
     <div class="container mx-auto p-4">
+        <h1 class="text-3xl font-bold text-center mb-6">Catálogo de Tenis</h1>
+        
+        <!-- Carrito de compras -->
+        <div class="relative mb-6">
+            <div class="flex justify-end">
+                <button id="cartButton" class="bg-blue-500 text-white px-4 py-2 rounded-lg flex items-center">
+                    <span class="mr-2">Carrito</span>
+                    <span id="cartCount" class="bg-white text-blue-500 rounded-full h-6 w-6 flex items-center justify-center font-bold">0</span>
+                </button>
+            </div>
+            <div id="cartDropdown" class="hidden absolute right-0 mt-2 bg-white rounded-lg shadow-lg z-10 w-80 max-h-96 overflow-y-auto">
+                <div class="p-4 border-b">
+                    <h3 class="font-bold">Tu carrito</h3>
+                </div>
+                <div id="cartItems" class="p-4">
+                    <!-- Items del carrito se insertarán aquí -->
+                </div>
+                <div class="p-4 border-t">
+                    <button id="quoteButton" class="w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition duration-300">
+                        Cotizar por WhatsApp
+                    </button>
+                </div>
+            </div>
+        </div>
+        
         <div class="flex flex-col md:flex-row justify-between mb-6">
             <!-- Buscador -->
             <div class="w-full md:w-1/2 mb-4 md:mb-0">
@@ -190,10 +198,69 @@
             <!-- Los productos se cargarán aquí vía JavaScript -->
         </div>
     </div>
+    
+    <!-- Modal para detalles del producto -->
+    <div id="productModal" class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center z-50">
+        <div class="bg-white rounded-xl w-11/12 max-w-3xl max-h-screen overflow-y-auto">
+            <div class="relative">
+                
+                
+                
+                <div class="p-6">
+                    <div class="mb-6 relative h-64">
+                        <div id="imageCarousel" class="mb-6 relative h-64">
+                            <!-- Las imágenes del carrusel se cargarán aquí -->
+                        </div>
+                        <div class="absolute inset-y-0 left-0 flex items-center">
+                            <button id="prevSlide" class="bg-black bg-opacity-30 hover:bg-opacity-50 text-white rounded-r-full p-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="absolute inset-y-0 right-0 flex items-center">
+                            <button id="nextSlide" class="bg-black bg-opacity-30 hover:bg-opacity-50 text-white rounded-l-full p-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <h2 id="modalProductName" class="text-2xl font-bold mb-2"></h2>
+                    <p id="modalProductBrand" class="text-gray-600 mb-2"></p>
+                    <p id="modalProductPrice" class="text-blue-600 font-semibold text-xl mb-4"></p>
+                    
+                    <div id="modalProductDescription" class="text-gray-700 mb-6">
+                        <!-- Descripción del producto -->
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label class="block text-gray-700 mb-2">Selecciona tu talla:</label>
+                        <div id="sizeSelector" class="grid grid-cols-4 gap-2">
+                            <!-- Las tallas se cargarán aquí -->
+                        </div>
+                    </div>
+                    
+                    <button id="addToCartButton" class="w-full bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600 transition duration-300 font-bold">
+                        Agregar al carrito
+                    </button>
+                </div>
 
+                <button id="closeModal" class="absolute top-4 right-4 bg-gray-200 rounded-full p-2 hover:bg-gray-300 transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/js/products.js"></script>
+    <script src="assets/js/catalog.js"></script>
 
-     <!-- footer -->
- <section class="w3l-footer-29-main">
+    <!-- footer -->
+  <section class="w3l-footer-29-main">
     <div class="footer-29 py-5">
       <div class="container py-lg-3">
         <div class="row footer-top-29">
@@ -263,202 +330,34 @@
       </div>
     </div>
   </section>
-  <!-- //footer -->
-  <!-- copyright -->
-  <section class="w3l-copyright">
-    <div class="container">
-      <div class="bottom-copies text-center">
-        <p class=" copy-footer-29">© 2025 Rooney Sport Made with <span class="fa fa-heart" aria-hidden="true"></span> love
-          Design by<a href="https://w3layouts.com/" target="_blank">
-            W3layouts</a></p>
-      </div>
-    </div>
-    
-    <!-- move top -->
-    <button onclick="topFunction()" id="movetop" title="Go to top">
-      &#10548;
-    </button>
-    <script>
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function () {
-        scrollFunction()
-      };
+<!-- //footer -->
+    <!-- copyright -->
+    <section class="w3l-copyright">
+        <div class="container">
+            <div class="bottom-copies text-center">
+            <p class=" copy-footer-29">© 2025 Rooney Sport Made with <span class="fa fa-heart" aria-hidden="true"></span> love
+                Design by<a href="https://w3layouts.com/" target="_blank">
+                W3layouts</a></p>
+            </div>
+        </div>
   
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          document.getElementById("movetop").style.display = "block";
-        } else {
-          document.getElementById("movetop").style.display = "none";
-        }
-      }
-  
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
-    <!-- /move top -->
-  </section>
-  <!-- //copyright -->
-  <!--//footer-->
-  <!-- Template JavaScript -->
-  <script src="assets/js/jquery-3.3.1.min.js"></script>
-  <script src="assets/js/theme-change.js"></script>
-  <!-- disable body scroll which navbar is in active -->
-  <script>
-    $(function () {
-      $('.navbar-toggler').click(function () {
-        $('body').toggleClass('noscroll');
-      })
-    });
-  </script>
-  <!-- disable body scroll which navbar is in active -->
-  
-  <!--/MENU-JS-->
-  <script>
-    $(window).on("scroll", function () {
-      var scroll = $(window).scrollTop();
-  
-      if (scroll >= 80) {
-        $("#site-header").addClass("nav-fixed");
-      } else {
-        $("#site-header").removeClass("nav-fixed");
-      }
-    });
-  
-    //Main navigation Active Class Add Remove
-    $(".navbar-toggler").on("click", function () {
-      $("header").toggleClass("active");
-    });
-    $(document).on("ready", function () {
-      if ($(window).width() > 991) {
-        $("header").removeClass("active");
-      }
-      $(window).on("resize", function () {
-        if ($(window).width() > 991) {
-          $("header").removeClass("active");
-        }
-      });
-    });
-  </script>
-  <!--//MENU-JS-->
-  <script src="assets/js/bootstrap.min.js"></script>
-    
-    <script>
-        // Datos de ejemplo para el catálogo
-        const products = [
-            {
-                id: 1,
-                name: "Nike Air Max 270",
-                brand: "Nike",
-                price: 129.99,
-                image: "assets/images/JordanBLoyal.jpeg"
-            },
-            {
-                id: 2,
-                name: "Adidas Ultraboost 21",
-                brand: "Adidas",
-                price: 149.99,
-                image: "assets/images/JordanRetro4.jpeg"            
-            },
-            {
-                id: 3,
-                name: "Puma RS-X",
-                brand: "Puma",
-                price: 109.99,
-                image: "assets/images/JordanRetro1Low.jpeg"
-            },
-            {
-                id: 4,
-                name: "New Balance 574",
-                brand: "New Balance",
-                price: 89.99,
-                image: "assets/images/JordanBLoyalSpaceJam.jpeg"
-            },
-            {
-                id: 5,
-                name: "Converse Chuck Taylor",
-                brand: "Converse",
-                price: 69.99,
-                image: "assets/images/JordanBLoyal.jpeg"
-            },
-            {
-                id: 6,
-                name: "Nike Blazer Mid",
-                brand: "Nike",
-                price: 99.99,
-                image: "assets/images/JordanRetro4.jpeg"            
-            },
-            {
-                id: 7,
-                name: "Adidas Stan Smith",
-                brand: "Adidas",
-                price: 79.99,
-                image: "assets/images/JordanRetro1Low.jpeg"
-            },
-            {
-                id: 8,
-                name: "Puma Suede Classic",
-                brand: "Puma",
-                price: 74.99,
-                image: "assets/images/JordanBLoyalSpaceJam.jpeg"
-            }
-        ];
-        
-        // Función para renderizar los productos
-        function renderProducts(productsToRender) {
-            const productCatalog = document.getElementById('productCatalog');
-            productCatalog.innerHTML = '';
-            
-            if (productsToRender.length === 0) {
-                productCatalog.innerHTML = '<p class="col-span-full text-center text-gray-500 py-8">No se encontraron productos que coincidan con tu búsqueda.</p>';
-                return;
-            }
-            
-            productsToRender.forEach(product => {
-                const productCard = document.createElement('div');
-                productCard.className = 'bg-white shadow-md overflow-hidden product-card';
-                
-                productCard.innerHTML = `
-                    <div class="p-4">
-                        <img src="${product.image}" alt="${product.name}" class="card-image">
-                        <h3 class="font-bold text-lg mt-2">${product.name}</h3>
-                        <p class="text-gray-600">${product.brand}</p>
-                        <p class="text-blue-600 font-semibold mt-2">$${product.price.toFixed(2)}</p>
-                        <button class="w-full mt-3 bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-300">
-                            Ver detalles
-                        </button>
-                    </div>
-                `;
-                
-                productCatalog.appendChild(productCard);
-            });
-        }
-        
-        // Función para filtrar productos
-        function filterProducts() {
-            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-            const selectedBrand = document.getElementById('brandFilter').value;
-            
-            const filteredProducts = products.filter(product => {
-                const matchesSearch = product.name.toLowerCase().includes(searchTerm);
-                const matchesBrand = selectedBrand === '' || product.brand === selectedBrand;
-                
-                return matchesSearch && matchesBrand;
-            });
-            
-            renderProducts(filteredProducts);
-        }
-        
-        // Event listeners
-        document.getElementById('searchInput').addEventListener('input', filterProducts);
-        document.getElementById('brandFilter').addEventListener('change', filterProducts);
-        
-        // Inicializar el catálogo con todos los productos
-        document.addEventListener('DOMContentLoaded', () => {
-            renderProducts(products);
-        });
-    </script>
+        <!-- move top -->
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+            &#10548;
+        </button>
+
+        <!-- /move top -->
+    </section>
+    <!-- copyright -->
+<!--//footer-->
+
+<!-- Template JavaScript -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/theme-change.js"></script>
+
+<!--//MENU-JS-->
+<script src="assets/js/app.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
 </body>
 </html>
