@@ -18,6 +18,7 @@ const cartDropdown = document.getElementById('cartDropdown');
 const cartItems = document.getElementById('cartItems');
 const cartCount = document.getElementById('cartCount');
 const quoteButton = document.getElementById('quoteButton');
+const navbar = document.getElementById('site-header')
 
 // Variables globales
 let currentProduct = null;
@@ -36,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Event listeners
     searchInput.addEventListener('input', filterProducts);
     brandFilter.addEventListener('change', filterProducts);
-    closeModal.addEventListener('click', () => productModal.classList.add('hidden'));
+    closeModal.addEventListener('click', closeModalf);
     prevSlide.addEventListener('click', showPrevSlide);
     nextSlide.addEventListener('click', showNextSlide);
     addToCartButton.addEventListener('click', addToCart);
@@ -119,6 +120,9 @@ function openProductModal(product) {
     
     // Mostrar modal
     productModal.classList.remove('hidden');
+
+    //Quitar Fixed del nav header
+    navbar.classList.remove('fixed-top')
 }
 
 function setupCarousel(images) {
@@ -176,12 +180,12 @@ function setupSizeSelector(sizes) {
 
 // Funciones del carrito
 function addToCart() {
-    /*
+    
     if (!selectedSize) {
         alert('Por favor selecciona una talla');
         return;
     }
-    */
+    
     const item = {
         id: Date.now(), // ID único para el ítem del carrito
         productId: currentProduct.id,
@@ -197,7 +201,7 @@ function addToCart() {
     updateCartCount();
     
     // Cerrar modal
-    productModal.classList.add('hidden');
+    closeModal();
     
     // Mostrar confirmación
     /*
@@ -290,4 +294,12 @@ function sendWhatsAppQuote() {
     
     // Abrir WhatsApp Web con el mensaje
     window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank');
+}
+
+function closeModalf(){
+    //Add hidden to poroductModal
+    productModal.classList.add('hidden')
+
+    //Add Fixed top to navBar
+    navbar.classList.add('fixed-top')
 }
