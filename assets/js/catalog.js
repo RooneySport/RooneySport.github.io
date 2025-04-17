@@ -201,7 +201,7 @@ function addToCart() {
     updateCartCount();
     
     // Cerrar modal
-    closeModal();
+    closeModalf();
     
     // Mostrar confirmación
     /*
