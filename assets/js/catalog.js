@@ -20,6 +20,8 @@ const cartCount = document.getElementById('cartCount');
 const quoteButton = document.getElementById('quoteButton');
 const navbar = document.getElementById('site-header')
 
+const maxDescriptionModalChars = 100;
+
 // Variables globales
 let currentProduct = null;
 let selectedSize = null;
@@ -110,7 +112,9 @@ function openProductModal(product) {
     modalProductName.textContent = product.name;
     modalProductBrand.textContent = product.brand;
     modalProductPrice.textContent = `$${product.price.toFixed(2)}`;
-    modalProductDescription.textContent = product.description;
+    modalProductDescription.textContent = product.description.length > maxDescriptionModalChars 
+    ? product.description.slice(0, maxDescriptionModalChars) + "..." 
+    : product.description;
     
     // Configurar carrusel de imágenes
     setupCarousel(product.images);
