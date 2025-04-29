@@ -67,18 +67,22 @@ function renderProducts(productsToRender) {
         const productCard = document.createElement('div');
         productCard.className = 'bg-white shadow-md overflow-hidden product-card';
         
+        //<p class="text-blue-600 font-semibold mt-2">$${product.price.toFixed(2)}</p>   Muestra precio
+
         productCard.innerHTML = `
             <div class="p-4">
                 <img src="${product.images[0]}" alt="${product.name}" class="card-image">
                 <h3 class="font-bold text-lg mt-2">${product.name}</h3>
                 <p class="text-gray-600">${product.brand}</p>
-                <p class="text-blue-600 font-semibold mt-2">$${product.price.toFixed(2)}</p>
+                <p class="text-blue-600 font-semibold mt-2">$ ¡Cotiza por mensaje!</p>
                 <button class="add-product-btn w-full mt-3 bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-300" data-id="${product.id}">
                     Agregar
                 </button>
             </div>
         `;
         
+
+
         productCatalog.appendChild(productCard);
         
         // Añadir evento al botón
