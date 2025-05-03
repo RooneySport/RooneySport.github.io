@@ -74,7 +74,7 @@ function renderProducts(productsToRender) {
                 <img src="${product.images[0]}" alt="${product.name}" class="card-image">
                 <h3 class="font-bold text-lg mt-2">${product.name}</h3>
                 <p class="text-gray-600">${product.brand}</p>
-                <p class="text-blue-600 font-semibold mt-2">$ ¡Cotiza por mensaje!</p>
+                <p class="text-blue-600 font-semibold mt-2">$ ¡Cotiza por Whatsapp!</p>
                 <button class="add-product-btn w-full mt-3 bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-300" data-id="${product.id}">
                     Agregar
                 </button>
@@ -115,7 +115,7 @@ function openProductModal(product) {
     // Configurar información del producto
     modalProductName.textContent = product.name;
     modalProductBrand.textContent = product.brand;
-    modalProductPrice.textContent = `$${product.price.toFixed(2)}`;
+    modalProductPrice.textContent = `$ ¡Cotiza por Whatsapp!`;
     modalProductDescription.textContent = product.description.length > maxDescriptionModalChars 
     ? product.description.slice(0, maxDescriptionModalChars) + "..." 
     : product.description;

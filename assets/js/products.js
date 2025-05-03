@@ -1281,5 +1281,187 @@ const products = [
             "Negro",
             "Rojo"
         ]
+    }, // Coma después del último objeto existente
+    {
+        "id": 43,
+        "name": "Lacoste Partner Piste", // Nombre corregido
+        "brand": "Lacoste",
+        "price": 2000,
+        "images": [
+            "assets/catalog/lacoste/partnerPiste/43_Negro_Amarillo_1.jpeg" // Ruta de imagen actualizada
+        ],
+        "sizes": [
+            2.5,
+            3,
+            3.5,
+            4,
+            4.5,
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.8,
+            9
+        ],
+        "description": "Lacoste Partner Piste: Estilo inspirado en el running con la elegancia clasica de Lacoste. Comodidad y diseño para el dia a dia.", // Descripción ajustada ligeramente
+        "color": [
+            "Negro",
+            "Amarillo"
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Lacoste Partner Piste", // Nombre corregido
+        "brand": "Lacoste",
+        "price": 2000,
+        "images": [
+            "assets/catalog/lacoste/partnerPiste/44_Negro_Blanco_1.jpeg" // Ruta de imagen actualizada
+        ],
+        "sizes": [
+            2.5,
+            3,
+            3.5,
+            4,
+            4.5,
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.8,
+            9
+        ],
+        "description": "Lacoste Partner Piste: Estilo inspirado en el running con la elegancia clasica de Lacoste. Comodidad y diseño para el dia a dia.",
+        "color": [
+            "Negro",
+            "Blanco"
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Lacoste Partner Piste", // Nombre corregido
+        "brand": "Lacoste",
+        "price": 2000,
+        "images": [
+            "assets/catalog/lacoste/partnerPiste/45_Negro_Rojo_1.jpeg" // Ruta de imagen actualizada
+        ],
+        "sizes": [
+            2.5,
+            3,
+            3.5,
+            4,
+            4.5,
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.8,
+            9
+        ],
+        "description": "Lacoste Partner Piste: Estilo inspirado en el running con la elegancia clasica de Lacoste. Comodidad y diseño para el dia a dia.",
+        "color": [
+            "Negro",
+            "Rojo"
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Lacoste Partner Piste", // Nombre corregido
+        "brand": "Lacoste",
+        "price": 2000,
+        "images": [
+            "assets/catalog/lacoste/partnerPiste/46_Blanco_Gris_Verde_1.jpeg" // Ruta de imagen actualizada
+        ],
+        "sizes": [
+            2.5,
+            3,
+            3.5,
+            4,
+            4.5,
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.8,
+            9
+        ],
+        "description": "Lacoste Partner Piste: Estilo inspirado en el running con la elegancia clasica de Lacoste. Comodidad y diseño para el dia a dia.",
+        "color": [
+            "Blanco",
+            "Gris",
+            "Verde"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Air Max Plus Tn", // Sin cambios
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxPlusTn/47_Negro_Verde_Amarillo_1.jpeg" // Sin cambios
+        ],
+        "sizes": [
+            2.5,
+            3,
+            3.5,
+            4,
+            4.5,
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.8,
+            9
+        ],
+        "description": "Nike Air Max Plus Tn: Diseño audaz con tecnologia Tuned Air para una comodidad superior y un estilo que no pasa desapercibido.", // Sin cambios
+        "color": [
+            "Negro",
+            "Verde",
+            "Amarillo"
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Air Max Plus Tn", // Sin cambios
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxPlusTn/48_Blanco_Negro_1.jpeg" // Sin cambios
+        ],
+        "sizes": [
+            2.5,
+            3,
+            3.5,
+            4,
+            4.5,
+            5,
+            5.5,
+            6,
+            6.5,
+            7,
+            7.5,
+            8,
+            8.8,
+            9
+        ],
+        "description": "Nike Air Max Plus Tn: Diseño audaz con tecnologia Tuned Air para una comodidad superior y un estilo que no pasa desapercibido.", // Sin cambios
+        "color": [
+            "Blanco",
+            "Negro"
+        ]
     }
-];
+]; // Cierre del array 'products'
