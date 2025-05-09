@@ -1436,32 +1436,578 @@ const products = [
     },
     {
         "id": 48,
-        "name": "Air Max Plus Tn", // Sin cambios
+        "name": "Air Max Plus Tn",
         "brand": "Nike",
         "price": 2000,
         "images": [
-            "assets/catalog/nike/airMaxPlusTn/48_Blanco_Negro_1.jpeg" // Sin cambios
+            "assets/catalog/nike/airMaxPlusTn/48_Blanco_Negro_1.jpeg"
         ],
         "sizes": [
-            2.5,
-            3,
-            3.5,
-            4,
-            4.5,
-            5,
-            5.5,
-            6,
-            6.5,
-            7,
-            7.5,
-            8,
-            8.8,
-            9
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
         ],
-        "description": "Nike Air Max Plus Tn: Diseño audaz con tecnologia Tuned Air para una comodidad superior y un estilo que no pasa desapercibido.", // Sin cambios
+        "description": "Nike Air Max Plus Tn: Diseño audaz con tecnologia Tuned Air para una comodidad superior y un estilo que no pasa desapercibido.",
         "color": [
-            "Blanco",
+            "Blanco", "Negro"
+        ]
+    }, // Coma aquí para continuar la lista
+    {
+        "id": 49,
+        "name": "Air Max 720",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMax720/49_Negro_Rojo_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max 720: La unidad Air mas alta hasta la fecha para una amortiguacion increible y un look futurista. Siente el aire.",
+        "color": [
+            "Negro", "Rojo"
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Air Max Genome",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxGenome/50_Purpura_Negro_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max Genome: Inspirado en principios de los 2000, lineas elegantes y una unidad Air completa para estilo y confort diario.",
+        "color": [
+            "Purpura", "Negro"
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Adidas Gazelle",
+        "brand": "Adidas",
+        "price": 2000,
+        "images": [
+            "assets/catalog/adidas/gazelle/51_Blanco_Rojo_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Adidas Gazelle: Un clasico atemporal. Silueta iconica de ante que ofrece estilo y versatilidad para cualquier ocasion.",
+        "color": [
+            "Blanco", "Rojo"
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Air Max Plus Tn",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxPlusTn/52_Rosa_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max Plus Tn: Diseño audaz con tecnologia Tuned Air para una comodidad superior y un estilo que no pasa desapercibido.",
+        "color": [
+            "Rosa"
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Jordan Retro 11",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro11/53_Negro_Rojo_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Jordan Retro 11: Elegancia y rendimiento legendario. Un icono del baloncesto con charol brillante y diseño atemporal.",
+        "color": [
+            "Negro", "Rojo"
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Air Max Genome",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxGenome/54_Negro_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max Genome: Inspirado en principios de los 2000, lineas elegantes y una unidad Air completa para estilo y confort diario.",
+        "color": [
             "Negro"
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Adidas Samba",
+        "brand": "Adidas",
+        "price": 2000,
+        "images": [
+            "assets/catalog/adidas/samba/55_Blanco_Negro_Cafe_1.jpeg" // Asumo que la suela de goma cuenta como gris o un color neutro adicional
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Adidas Samba: El icono atemporal del futbol sala, ahora un basico urbano. Estilo retro y versatilidad para tu dia a dia.",
+        "color": [
+            "Blanco", "Negro", "Cafe" // Suela de goma
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Adidas Samba", // Asumiendo que la imagen 8 es una entrada separada
+        "brand": "Adidas",
+        "price": 2000,
+        "images": [
+            "assets/catalog/adidas/samba/56_Blanco_Negro_Gris_1.jpeg" // Mismo colorway que el anterior
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Adidas Samba: El icono atemporal del futbol sala, ahora un basico urbano. Estilo retro y versatilidad para tu dia a dia.",
+        "color": [
+            "Blanco", "Negro", "Gris"
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Air Max Deluxe",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxDeluxe/57_Blanco_Naranja_Negro_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max Deluxe: Un diseño fluido inspirado en las ondas sonoras, con amortiguacion Air Max visible para un confort superior.",
+        "color": [
+            "Blanco", "Naranja", "Negro"
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Air Max Genome",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxGenome/58_Blanco_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max Genome: Inspirado en principios de los 2000, lineas elegantes y una unidad Air completa para estilo y confort diario.",
+        "color": [
+            "Blanco"
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Nike ZoomX Vomero",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/zoomXVomero/59_Rosa_Naranja_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike ZoomX Vomero: Amortiguacion receptiva y suave para tus carreras. Comodidad y rendimiento kilometro tras kilometro.",
+        "color": [
+            "Rosa", "Naranja"
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Nike ZoomX Vomero", // Asumiendo mismo modelo para imagen 12
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/zoomXVomero/60_Rosa_Naranja_Blanco_1.jpeg" // Añadido blanco de la suela
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike ZoomX Vomero: Amortiguacion receptiva y suave para tus carreras. Comodidad y rendimiento kilometro tras kilometro.",
+        "color": [
+            "Rosa", "Naranja", "Blanco"
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Air Max Dawn",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxDawn/61_Blanco_Azul_Rojo_Amarillo_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max Dawn: Estilo retro running con un toque moderno. Comodidad Air y diseño versatil para el uso diario.",
+        "color": [
+            "Blanco", "Azul", "Rojo", "Amarillo"
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Air Max Genome",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxGenome/62_Amarillo_Negro_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max Genome: Inspirado en principios de los 2000, lineas elegantes y una unidad Air completa para estilo y confort diario.",
+        "color": [
+            "Amarillo", "Negro"
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Nike ZoomX Vomero",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/zoomXVomero/63_Negro_Azul_Rosa_Blanco_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike ZoomX Vomero: Amortiguacion receptiva y suave para tus carreras. Comodidad y rendimiento kilometro tras kilometro.",
+        "color": [
+            "Negro", "Azul", "Rosa", "Blanco"
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Nike ZoomX Vomero",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/zoomXVomero/64_Blanco_Amarillo_Negro_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike ZoomX Vomero: Amortiguacion receptiva y suave para tus carreras. Comodidad y rendimiento kilometro tras kilometro.",
+        "color": [
+            "Blanco", "Amarillo", "Negro"
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Adidas Samba",
+        "brand": "Adidas",
+        "price": 2000,
+        "images": [
+            "assets/catalog/adidas/samba/65_Negro_Rosa_Gris_1.jpeg" // Suela de goma como gris
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Adidas Samba: El icono atemporal del futbol sala, ahora un basico urbano. Estilo retro y versatilidad para tu dia a dia.",
+        "color": [
+            "Negro", "Rosa", "Gris"
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Air Max Dawn",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxDawn/66_Blanco_Cafe_Rosa_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max Dawn: Estilo retro running con un toque moderno. Comodidad Air y diseño versatil para el uso diario.",
+        "color": [
+            "Blanco", "Cafe", "Rosa"
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Air Max 270",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMax270/67_Negro_Blanco_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max 270: Con la primera unidad Max Air creada especificamente para Sportswear, ofrece comodidad visible y estilo audaz.",
+        "color": [
+            "Negro", "Blanco"
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Air Max Genome",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxGenome/68_Verde_Negro_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max Genome: Inspirado en principios de los 2000, lineas elegantes y una unidad Air completa para estilo y confort diario.",
+        "color": [
+            "Verde", "Negro"
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Air Max 270",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMax270/69_Blanco_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max 270: Con la primera unidad Max Air creada especificamente para Sportswear, ofrece comodidad visible y estilo audaz.",
+        "color": [
+            "Blanco"
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Jordan Retro 1 High",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro1High/70_Negro_Azul_Blanco_1.jpeg" // Royal con suela blanca
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Jordan Retro 1 High: Un icono de la cancha y la calle, reinterpretado con colores frescos. Diseño atemporal y la comodidad que esperas de un clasico.",
+        "color": [
+            "Negro", "Azul", "Blanco"
+        ]
+    },
+    {
+        "id": 71,
+        "name": "Air Max 270",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMax270/71_Negro_Purpura_1.jpeg" // Burbuja iridiscente como púrpura
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max 270: Con la primera unidad Max Air creada especificamente para Sportswear, ofrece comodidad visible y estilo audaz.",
+        "color": [
+            "Negro", "Purpura"
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Air Max Plus Tn",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxPlusTn/72_Rosa_Purpura_Negro_Blanco_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max Plus Tn: Diseño audaz con tecnologia Tuned Air para una comodidad superior y un estilo que no pasa desapercibido.",
+        "color": [
+            "Rosa", "Purpura", "Negro", "Blanco"
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Air Max Plus Tn",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxPlusTn/73_Blanco_Negro_Verde_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max Plus Tn: Diseño audaz con tecnologia Tuned Air para una comodidad superior y un estilo que no pasa desapercibido.",
+        "color": [
+            "Blanco", "Negro", "Verde"
+        ]
+    },
+    {
+        "id": 74,
+        "name": "Adidas Gazelle Bold",
+        "brand": "Adidas",
+        "price": 2000,
+        "images": [
+            "assets/catalog/adidas/gazelleBold/74_Blanco_Rosa_Gris_1.jpeg" // Suela como gris/beige
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Adidas Gazelle Bold: Eleva el clasico Gazelle con una suela de plataforma llamativa. Estilo y altura con un toque retro.",
+        "color": [
+            "Blanco", "Rosa", "Gris" // o Beige para la suela
+        ]
+    },
+    {
+        "id": 75,
+        "name": "Air Max Plus Tn",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxPlusTn/75_Verde_Naranja_Negro_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max Plus Tn: Diseño audaz con tecnologia Tuned Air para una comodidad superior y un estilo que no pasa desapercibido.",
+        "color": [
+            "Verde", "Naranja", "Negro"
+        ]
+    },
+    {
+        "id": 76,
+        "name": "Air Max Plus Tn",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxPlusTn/76_Negro_Rojo_Blanco_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max Plus Tn: Diseño audaz con tecnologia Tuned Air para una comodidad superior y un estilo que no pasa desapercibido.",
+        "color": [
+            "Negro", "Rojo", "Blanco"
+        ]
+    },
+    {
+        "id": 77,
+        "name": "Asics GEL-NYC", // Modelo actualizado
+        "brand": "Asics",
+        "price": 2000,
+        "images": [
+            "assets/catalog/asics/gelNyc/77_Azul_Cafe_Naranja_Gris_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Asics GEL-NYC: Fusion de diseño de archivo y tecnologia moderna. Estilo retro-tech con comodidad GEL para la ciudad.",
+        "color": [
+            "Azul", "Cafe", "Naranja", "Gris"
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Adidas Gazelle Bold",
+        "brand": "Adidas",
+        "price": 2000,
+        "images": [
+            "assets/catalog/adidas/gazelleBold/78_Blanco_Verde_Beige_1.jpeg" // Suela como beige
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Adidas Gazelle Bold: Eleva el clasico Gazelle con una suela de plataforma llamativa. Estilo y altura con un toque retro.",
+        "color": [
+            "Blanco", "Verde", "Beige"
+        ]
+    },
+    {
+        "id": 79,
+        "name": "Nike React Infinity Run", // Modelo actualizado
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/reactInfinityRun/79_Blanco_Rosa_Verde_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike React Infinity Run: Diseñadas para ayudar a reducir lesiones y mantenerte corriendo. Amortiguacion suave y estable.",
+        "color": [
+            "Blanco", "Rosa", "Verde"
+        ]
+    },
+    {
+        "id": 80,
+        "name": "Adidas Samba",
+        "brand": "Adidas",
+        "price": 2000,
+        "images": [
+            "assets/catalog/adidas/samba/80_Rosa_Negro_Gris_1.jpeg" // Suela de goma como gris
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Adidas Samba: El icono atemporal del futbol sala, ahora un basico urbano. Estilo retro y versatilidad para tu dia a dia.",
+        "color": [
+            "Rosa", "Negro", "Gris"
+        ]
+    },
+    {
+        "id": 81,
+        "name": "Air Max Deluxe",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxDeluxe/81_Blanco_Azul_Negro_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max Deluxe: Un diseño fluido inspirado en las ondas sonoras, con amortiguacion Air Max visible para un confort superior.",
+        "color": [
+            "Blanco", "Azul", "Negro"
+        ]
+    },
+    {
+        "id": 82,
+        "name": "Air Max Genome",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxGenome/82_Rosa_Negro_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max Genome: Inspirado en principios de los 2000, lineas elegantes y una unidad Air completa para estilo y confort diario.",
+        "color": [
+            "Rosa", "Negro"
+        ]
+    },
+    {
+        "id": 83,
+        "name": "Air Max Genome",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxGenome/83_Azul_Negro_Rojo_1.jpeg"
+        ],
+        "sizes": [
+            2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
+        ],
+        "description": "Nike Air Max Genome: Inspirado en principios de los 2000, lineas elegantes y una unidad Air completa para estilo y confort diario.",
+        "color": [
+            "Azul", "Negro", "Rojo"
         ]
     }
 ]; // Cierre del array 'products'
