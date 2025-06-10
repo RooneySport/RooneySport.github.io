@@ -2011,3 +2011,985 @@ const products = [
         ]
     }
 ]; // Cierre del array 'products'
+
+
+const childrenProducts = [
+    {
+        "id": 1,
+        "name": "Jordan Retro 11",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro11/1c_Negro_Rojo_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 11: Diseño legendario con charol brillante. Estilo y rendimiento que marcan la diferencia.",
+        "color": [
+            "Negro",
+            "Rojo"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Jordan Retro 3",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro3/2c_Negro_Gris_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 3: El iconico estampado de elefante y la unidad Air visible se unen en este clasico atemporal.",
+        "color": [
+            "Negro",
+            "Gris"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Jordan 1 Mid",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordan1Mid/3c_Rojo_Blanco_Negro_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan 1 Mid: El espiritu del original en un corte medio. Versatilidad y estilo iconico para los mas jovenes.",
+        "color": [
+            "Rojo",
+            "Blanco",
+            "Negro"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Jordan Retro 4",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro4/4c_Blanco_Gris_Negro_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 4: Diseño audaz con unidades Air visibles y detalles iconicos. Un clasico que destaca.",
+        "color": [
+            "Blanco",
+            "Gris",
+            "Negro"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Jordan 1 Mid",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordan1Mid/5c_Azul_Rosa_Blanco_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan 1 Mid: El espiritu del original en un corte medio. Versatilidad y estilo iconico para los mas jovenes.",
+        "color": [
+            "Azul",
+            "Rosa",
+            "Blanco"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Jordan Retro 4",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro4/6c_Blanco_Azulclaro_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 4: Diseño audaz con unidades Air visibles y detalles iconicos. Un clasico que destaca.",
+        "color": [
+            "Blanco",
+            "Azul"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Nike Flight Legacy",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/flightLegacy/7c_Blanco_Rojo_Dorado_Negro_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Nike Flight Legacy: Inspiracion retro del baloncesto con comodidad moderna. Listos para la diversion.",
+        "color": [
+            "Blanco",
+            "Rojo",
+            "Dorado",
+            "Negro"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Jordan 1 Mid",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordan1Mid/8c_Negro_Beige_Naranja_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan 1 Mid: El espiritu del original en un corte medio. Versatilidad y estilo iconico para los mas jovenes.",
+        "color": [
+            "Negro",
+            "Beige",
+            "Naranja"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Jordan 1 Mid",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordan1Mid/9c_Negro_Blanco_Dorado_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan 1 Mid: El espiritu del original con un toque de charol brillante. Estilo iconico y llamativo.",
+        "color": [
+            "Negro",
+            "Blanco",
+            "Dorado"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Jordan 1 Mid",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordan1Mid/10c_Blanco_Azulclaro_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan 1 Mid: El espiritu del original en un corte medio. Versatilidad y estilo iconico para los mas jovenes.",
+        "color": [
+            "Blanco",
+            "Azul"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Jordan Retro 13",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro13/11c_Blanco_Azul_Gris_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 13: Con su diseño inspirado en una pantera, este modelo es pura agilidad y estilo unico.",
+        "color": [
+            "Blanco",
+            "Azul",
+            "Gris"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Jordan Retro 7",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro7/12c_Negro_Rojo_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 7: Diseño unico inspirado en el arte tribal y una comoda funda interior. Estilo y confort.",
+        "color": [
+            "Negro",
+            "Rojo"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Jordan Retro 11 Low",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro11Low/13c_Negro_Rojo_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 11 Low: La elegancia del clasico en un perfil bajo. Perfecto para un look sofisticado y comodo.",
+        "color": [
+            "Negro",
+            "Rojo"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Jordan Retro 11 Low",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro11Low/14c_Blanco_Negro_Goma_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 11 Low: La elegancia del clasico en un perfil bajo, con un toque atemporal y suela distintiva.",
+        "color": [
+            "Blanco",
+            "Negro",
+            "Cafe"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Jordan Access",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanAccess/15c_Blanco_Negro_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Access: Comodidad diaria con el ADN de Jordan. Un diseño sencillo y versatil para cualquier ocasion.",
+        "color": [
+            "Blanco",
+            "Negro"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Jordan Max Aura",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanMaxAura/16c_Blanco_Negro_Rojo_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Max Aura: Fusionando elementos de clasicos, ofrece un look moderno con gran amortiguacion.",
+        "color": [
+            "Blanco",
+            "Negro",
+            "Rojo"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Jordan Retro 12",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro12/17c_Blanco_Negro_Amarillo_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 12: Inspirado en el sol naciente japones, este diseño ofrece durabilidad y un estilo unico.",
+        "color": [
+            "Blanco",
+            "Negro",
+            "Amarillo"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Jordan Retro 12",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro12/18c_Blanco_Azulclaro_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 12: Inspirado en el sol naciente japones, este diseño ofrece durabilidad y un estilo unico.",
+        "color": [
+            "Blanco",
+            "Azul"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Jordan 1 Mid",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordan1Mid/19c_Negro_PurpuraSuela_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan 1 Mid: El espiritu del original en un elegante acabado de charol negro. Estilo sofisticado y moderno.",
+        "color": [
+            "Negro",
+            "Purpura"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Jordan Retro 14 Low",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro14Low/20c_Blanco_Negro_Azul_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 14 Low: Inspirado en coches deportivos, ofrece un diseño aerodinamico y un rendimiento agil.",
+        "color": [
+            "Blanco",
+            "Negro",
+            "Azul"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Jordan Retro 11 Low IE",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro11LowIE/21c_Blanco_Negro_Purpura_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 11 Low IE: Una version transpirable y ligera del clasico 11, ideal para comodidad y estilo.",
+        "color": [
+            "Blanco",
+            "Negro",
+            "Purpura"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Jordan Retro 3",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro3/22c_Blanco_Naranja_Gris_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 3: El iconico estampado de elefante y la unidad Air visible se unen en este clasico atemporal.",
+        "color": [
+            "Blanco",
+            "Naranja",
+            "Gris"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Jordan Retro 13",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro13/23c_Blanco_Negro_Rosa_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 13: Con su diseño inspirado en una pantera, este modelo es pura agilidad y estilo unico.",
+        "color": [
+            "Blanco",
+            "Negro",
+            "Rosa"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Jordan Retro 3",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro3/24c_Blanco_Gris_Rojo_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 3: El iconico estampado de elefante y la unidad Air visible se unen en este clasico atemporal.",
+        "color": [
+            "Blanco",
+            "Gris",
+            "Rojo"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Jordan Retro 13",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro13/25c_Blanco_Gris_Negro_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 13: Con su diseño inspirado en una pantera, este modelo es pura agilidad y estilo unico.",
+        "color": [
+            "Blanco",
+            "Gris",
+            "Negro"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Jordan Retro 14 Low",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro14Low/26c_Negro_Blanco_Rojo_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 14 Low: Inspirado en coches deportivos, ofrece un diseño aerodinamico y un rendimiento agil.",
+        "color": [
+            "Negro",
+            "Blanco",
+            "Rojo"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Jordan Retro 13",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro13/27c_Blanco_Azulclaro_Negro_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 13: Con su diseño inspirado en una pantera, este modelo es pura agilidad y estilo unico.",
+        "color": [
+            "Blanco",
+            "Azul",
+            "Negro"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Nike Flight Legacy",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/flightLegacy/28c_Blanco_Negro_Rosa_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Nike Flight Legacy: Inspiracion retro del baloncesto con comodidad moderna. Listos para la diversion.",
+        "color": [
+            "Blanco",
+            "Negro",
+            "Rosa"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Jordan 1 Mid",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordan1Mid/29c_Negro_Rosa_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan 1 Mid: El espiritu del original en un corte medio. Versatilidad y estilo iconico para los mas jovenes.",
+        "color": [
+            "Negro",
+            "Rosa"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Jordan Retro 3",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro3/30c_Negro_Azul_Blanco_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 3: El iconico estampado de elefante y la unidad Air visible se unen en este clasico atemporal.",
+        "color": [
+            "Negro",
+            "Azul",
+            "Blanco"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Jordan 1 Mid",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordan1Mid/31c_Negro_Rojo_Amarillo_Purpura_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan 1 Mid: El espiritu del original en un corte medio con una vibrante combinacion de colores.",
+        "color": [
+            "Negro",
+            "Rojo",
+            "Amarillo",
+            "Purpura"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Jordan 1 Mid",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordan1Mid/32c_Blanco_Negro_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan 1 Mid: El espiritu del original en un corte medio. Versatilidad y estilo iconico para los mas jovenes.",
+        "color": [
+            "Blanco",
+            "Negro"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Jordan 1 Mid",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordan1Mid/33c_Negro_Azul_Blanco_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan 1 Mid: El espiritu del original con suaves detalles de gamuza. Estilo clasico y textura premium.",
+        "color": [
+            "Negro",
+            "Azul",
+            "Blanco"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Jordan Retro 13",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro13/34c_Blanco_VerdeAgua_Rosa_Amarillo_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 13: Con su diseño inspirado en una pantera, este modelo es pura agilidad y estilo unico y divertido.",
+        "color": [
+            "Blanco",
+            "Verde",
+            "Rosa",
+            "Amarillo"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Jordan Retro 13",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro13/35c_Negro_Rojo_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Retro 13: Con su diseño inspirado en una pantera, este modelo es pura agilidad y estilo unico.",
+        "color": [
+            "Negro",
+            "Rojo"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Jordan Access",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanAccess/36c_Negro_Blanco_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Access: Comodidad diaria con el ADN de Jordan. Un diseño sencillo y versatil para cualquier ocasion.",
+        "color": [
+            "Negro",
+            "Blanco"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Jordan Max Aura",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanMaxAura/37c_Gris_Negro_Naranja_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Jordan Max Aura: Fusionando elementos de clasicos, ofrece un look moderno con gran amortiguacion.",
+        "color": [
+            "Gris",
+            "Negro",
+            "Naranja"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Nike Flight Legacy",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/flightLegacy/38c_Rojo_Blanco_Negro_1.jpeg"
+        ],
+        "sizes": [
+            18,
+            18.5,
+            19,
+            19.5,
+            20,
+            20.5,
+            21,
+            21.5,
+            22
+        ],
+        "description": "Nike Flight Legacy: Inspiracion retro del baloncesto con comodidad moderna. Listos para la diversion.",
+        "color": [
+            "Rojo",
+            "Blanco",
+            "Negro"
+        ]
+    }
+];

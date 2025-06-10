@@ -2,6 +2,7 @@
 const productCatalog = document.getElementById('productCatalog');
 const searchInput = document.getElementById('searchInput');
 const brandFilter = document.getElementById('brandFilter');
+const typeFilter = document.getElementById("typeFilter")
 const productModal = document.getElementById('productModal');
 const closeModal = document.getElementById('closeModal');
 const modalProductName = document.getElementById('modalProductName');
@@ -39,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Event listeners
     searchInput.addEventListener('input', filterProducts);
     brandFilter.addEventListener('change', filterProducts);
+    typeFilter.addEventListener('change', filterProducts)
     closeModal.addEventListener('click', closeModalf);
     prevSlide.addEventListener('click', showPrevSlide);
     nextSlide.addEventListener('click', showNextSlide);
@@ -95,16 +97,25 @@ function renderProducts(productsToRender) {
 function filterProducts() {
     const searchTerm = searchInput.value.toLowerCase();
     const selectedBrand = brandFilter.value;
-    
-    const filteredProducts = products.filter(product => {
+    const selectedType = typeFilter.value.toString();
+
+    console.log("Selected type:", selectedType);
+
+
+    // Select the correct product list based on selectedType
+    const productList = selectedType === "Adulto" ? products : childrenProducts;
+
+    // Apply the filter logic (same for both lists)
+    const filteredProducts = productList.filter(product => {
         const matchesSearch = product.name.toLowerCase().includes(searchTerm);
         const matchesBrand = selectedBrand === '' || product.brand === selectedBrand;
-        
+
         return matchesSearch && matchesBrand;
     });
-    
+
     renderProducts(filteredProducts);
 }
+
 
 // Funciones del modal
 function openProductModal(product) {
@@ -289,7 +300,7 @@ function sendWhatsAppQuote() {
     let message = "Hola, me interesa cotizar los siguientes productos:\n\n";
     
     cart.forEach((item, index) => {
-        message += `${index + 1}. ${item.name} - Talla: ${item.size}\n`;
+        message += `${index + 1}. ${item.name} - Talla: ${item.size} - Foto: rooneysport.com.mx/${item.image}\n`;
     });
     
     message += "\nPor favor, ¿podrías proporcionarme información sobre disponibilidad y precios? Gracias.";
