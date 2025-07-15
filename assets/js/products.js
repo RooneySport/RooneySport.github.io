@@ -1281,14 +1281,14 @@ const products = [
             "Negro",
             "Rojo"
         ]
-    }, // Coma después del último objeto existente
+    },
     {
         "id": 43,
-        "name": "Lacoste Partner Piste", // Nombre corregido
+        "name": "Lacoste Partner Piste", 
         "brand": "Lacoste",
         "price": 2000,
         "images": [
-            "assets/catalog/lacoste/partnerPiste/43_Negro_Amarillo_1.jpeg" // Ruta de imagen actualizada
+            "assets/catalog/lacoste/partnerPiste/43_Negro_Amarillo_1.jpeg"
         ],
         "sizes": [
             2.5,
@@ -1314,11 +1314,11 @@ const products = [
     },
     {
         "id": 44,
-        "name": "Lacoste Partner Piste", // Nombre corregido
+        "name": "Lacoste Partner Piste", 
         "brand": "Lacoste",
         "price": 2000,
         "images": [
-            "assets/catalog/lacoste/partnerPiste/44_Negro_Blanco_1.jpeg" // Ruta de imagen actualizada
+            "assets/catalog/lacoste/partnerPiste/44_Negro_Blanco_1.jpeg" 
         ],
         "sizes": [
             2.5,
@@ -1344,11 +1344,11 @@ const products = [
     },
     {
         "id": 45,
-        "name": "Lacoste Partner Piste", // Nombre corregido
+        "name": "Lacoste Partner Piste", 
         "brand": "Lacoste",
         "price": 2000,
         "images": [
-            "assets/catalog/lacoste/partnerPiste/45_Negro_Rojo_1.jpeg" // Ruta de imagen actualizada
+            "assets/catalog/lacoste/partnerPiste/45_Negro_Rojo_1.jpeg" 
         ],
         "sizes": [
             2.5,
@@ -1374,11 +1374,11 @@ const products = [
     },
     {
         "id": 46,
-        "name": "Lacoste Partner Piste", // Nombre corregido
+        "name": "Lacoste Partner Piste", 
         "brand": "Lacoste",
         "price": 2000,
         "images": [
-            "assets/catalog/lacoste/partnerPiste/46_Blanco_Gris_Verde_1.jpeg" // Ruta de imagen actualizada
+            "assets/catalog/lacoste/partnerPiste/46_Blanco_Gris_Verde_1.jpeg"
         ],
         "sizes": [
             2.5,
@@ -1405,11 +1405,11 @@ const products = [
     },
     {
         "id": 47,
-        "name": "Air Max Plus Tn", // Sin cambios
+        "name": "Air Max Plus Tn", 
         "brand": "Nike",
         "price": 2000,
         "images": [
-            "assets/catalog/nike/airMaxPlusTn/47_Negro_Verde_Amarillo_1.jpeg" // Sin cambios
+            "assets/catalog/nike/airMaxPlusTn/47_Negro_Verde_Amarillo_1.jpeg" 
         ],
         "sizes": [
             2.5,
@@ -1449,7 +1449,7 @@ const products = [
         "color": [
             "Blanco", "Negro"
         ]
-    }, // Coma aquí para continuar la lista
+    }, 
     {
         "id": 49,
         "name": "Air Max 720",
@@ -1552,23 +1552,23 @@ const products = [
         "brand": "Adidas",
         "price": 2000,
         "images": [
-            "assets/catalog/adidas/samba/55_Blanco_Negro_Cafe_1.jpeg" // Asumo que la suela de goma cuenta como gris o un color neutro adicional
+            "assets/catalog/adidas/samba/55_Blanco_Negro_Cafe_1.jpeg"
         ],
         "sizes": [
             2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
         ],
         "description": "Adidas Samba: El icono atemporal del futbol sala, ahora un basico urbano. Estilo retro y versatilidad para tu dia a dia.",
         "color": [
-            "Blanco", "Negro", "Cafe" // Suela de goma
+            "Blanco", "Negro", "Cafe" 
         ]
     },
     {
         "id": 56,
-        "name": "Adidas Samba", // Asumiendo que la imagen 8 es una entrada separada
+        "name": "Adidas Samba", 
         "brand": "Adidas",
         "price": 2000,
         "images": [
-            "assets/catalog/adidas/samba/56_Blanco_Negro_Gris_1.jpeg" // Mismo colorway que el anterior
+            "assets/catalog/adidas/samba/56_Blanco_Negro_Gris_1.jpeg" 
         ],
         "sizes": [
             2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
@@ -1628,11 +1628,11 @@ const products = [
     },
     {
         "id": 60,
-        "name": "Nike ZoomX Vomero", // Asumiendo mismo modelo para imagen 12
+        "name": "Nike ZoomX Vomero", 
         "brand": "Nike",
         "price": 2000,
         "images": [
-            "assets/catalog/nike/zoomXVomero/60_Rosa_Naranja_Blanco_1.jpeg" // Añadido blanco de la suela
+            "assets/catalog/nike/zoomXVomero/60_Rosa_Naranja_Blanco_1.jpeg" 
         ],
         "sizes": [
             2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
@@ -1712,7 +1712,7 @@ const products = [
         "brand": "Adidas",
         "price": 2000,
         "images": [
-            "assets/catalog/adidas/samba/65_Negro_Rosa_Gris_1.jpeg" // Suela de goma como gris
+            "assets/catalog/adidas/samba/65_Negro_Rosa_Gris_1.jpeg" 
         ],
         "sizes": [
             2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
@@ -1792,7 +1792,7 @@ const products = [
         "brand": "Nike",
         "price": 2000,
         "images": [
-            "assets/catalog/nike/jordanRetro1High/70_Negro_Azul_Blanco_1.jpeg" // Royal con suela blanca
+            "assets/catalog/nike/jordanRetro1High/70_Negro_Azul_Blanco_1.jpeg" 
         ],
         "sizes": [
             2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
@@ -1808,7 +1808,7 @@ const products = [
         "brand": "Nike",
         "price": 2000,
         "images": [
-            "assets/catalog/nike/airMax270/71_Negro_Purpura_1.jpeg" // Burbuja iridiscente como púrpura
+            "assets/catalog/nike/airMax270/71_Negro_Purpura_1.jpeg" 
         ],
         "sizes": [
             2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
@@ -1856,14 +1856,14 @@ const products = [
         "brand": "Adidas",
         "price": 2000,
         "images": [
-            "assets/catalog/adidas/gazelleBold/74_Blanco_Rosa_Gris_1.jpeg" // Suela como gris/beige
+            "assets/catalog/adidas/gazelleBold/74_Blanco_Rosa_Gris_1.jpeg" 
         ],
         "sizes": [
             2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
         ],
         "description": "Adidas Gazelle Bold: Eleva el clasico Gazelle con una suela de plataforma llamativa. Estilo y altura con un toque retro.",
         "color": [
-            "Blanco", "Rosa", "Gris" // o Beige para la suela
+            "Blanco", "Rosa", "Gris" 
         ]
     },
     {
@@ -1900,7 +1900,7 @@ const products = [
     },
     {
         "id": 77,
-        "name": "Asics GEL-NYC", // Modelo actualizado
+        "name": "Asics GEL-NYC", 
         "brand": "Asics",
         "price": 2000,
         "images": [
@@ -1920,7 +1920,7 @@ const products = [
         "brand": "Adidas",
         "price": 2000,
         "images": [
-            "assets/catalog/adidas/gazelleBold/78_Blanco_Verde_Beige_1.jpeg" // Suela como beige
+            "assets/catalog/adidas/gazelleBold/78_Blanco_Verde_Beige_1.jpeg" 
         ],
         "sizes": [
             2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
@@ -1932,7 +1932,7 @@ const products = [
     },
     {
         "id": 79,
-        "name": "Nike React Infinity Run", // Modelo actualizado
+        "name": "Nike React Infinity Run", 
         "brand": "Nike",
         "price": 2000,
         "images": [
@@ -1952,7 +1952,7 @@ const products = [
         "brand": "Adidas",
         "price": 2000,
         "images": [
-            "assets/catalog/adidas/samba/80_Rosa_Negro_Gris_1.jpeg" // Suela de goma como gris
+            "assets/catalog/adidas/samba/80_Rosa_Negro_Gris_1.jpeg" 
         ],
         "sizes": [
             2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.8,9
@@ -2009,8 +2009,758 @@ const products = [
         "color": [
             "Azul", "Negro", "Rojo"
         ]
+    },
+        {
+        "id": 84,
+        "name": "Jordan Retro 4",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro4/84_Blanco_Negro_Gris_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Jordan Retro 4: Un diseño audaz e icónico que combina soporte, amortiguación visible y un estilo inconfundible. Perfectas para la cancha o la calle.",
+        "color": [
+            "Blanco", "Negro", "Gris"
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Jordan Retro 13",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro13/85_Negro_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Jordan Retro 13: Inspirado en la pantera negra, este modelo combina un diseño sigiloso con una comodidad y rendimiento excepcionales. Un clásico con carácter.",
+        "color": [
+            "Negro"
+        ]
+    },
+    {
+        "id": 86,
+        "name": "Jordan Retro 4",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro4/86_Negro_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Jordan Retro 4: Un diseño audaz e icónico que combina soporte, amortiguación visible y un estilo inconfundible. Perfectas para la cancha o la calle.",
+        "color": [
+            "Negro"
+        ]
+    },
+    {
+        "id": 87,
+        "name": "Jordan Retro 4",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro4/87_Blanco_Azul_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Jordan Retro 4: Un diseño audaz e icónico que combina soporte, amortiguación visible y un estilo inconfundible. Perfectas para la cancha o la calle.",
+        "color": [
+            "Blanco", "Azul"
+        ]
+    },
+    {
+        "id": 88,
+        "name": "Jordan Retro 4",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro4/88_Negro_Blanco_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Jordan Retro 4: Un diseño audaz e icónico que combina soporte, amortiguación visible y un estilo inconfundible. Perfectas para la cancha o la calle.",
+        "color": [
+            "Negro", "Blanco"
+        ]
+    },
+    {
+        "id": 89,
+        "name": "Jordan Retro 3",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro3/89_Beige_Gris_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Jordan Retro 3: El icónico elefante print y la amortiguación visible se unen en este clásico atemporal.",
+        "color": [
+            "Beige", "Gris"
+        ]
+    },
+    {
+        "id": 90,
+        "name": "Jordan Retro 3",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro3/90_Blanco_Purpura_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Jordan Retro 3: El icónico elefante print y la amortiguación visible se unen en este clásico atemporal.",
+        "color": [
+            "Blanco", "Purpura"
+        ]
+    },
+    {
+        "id": 91,
+        "name": "Jordan Retro 4",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro4/91_Blanco_Rosa_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Jordan Retro 4: Un diseño audaz e icónico que combina soporte, amortiguación visible y un estilo inconfundible. Perfectas para la cancha o la calle.",
+        "color": [
+            "Blanco", "Rosa"
+        ]
+    },
+    {
+        "id": 92,
+        "name": "Jordan Retro 3",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro3/92_Negro_Blanco_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Jordan Retro 3: El icónico elefante print y la amortiguación visible se unen en este clásico atemporal.",
+        "color": [
+            "Negro", "Blanco"
+        ]
+    },
+    {
+        "id": 93,
+        "name": "Jordan Retro 3",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro3/93_Blanco_Rosa_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Jordan Retro 3: El icónico elefante print y la amortiguación visible se unen en este clásico atemporal.",
+        "color": [
+            "Blanco", "Rosa"
+        ]
+    },
+    {
+        "id": 94,
+        "name": "Jordan Retro 3",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro3/94_Negro_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Jordan Retro 3: El icónico elefante print y la amortiguación visible se unen en este clásico atemporal.",
+        "color": [
+            "Negro"
+        ]
+    },
+    {
+        "id": 95,
+        "name": "Jordan Retro 3 Fragment",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro3/95_Negro_Blanco_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Jordan Retro 3 Fragment: Una colaboración minimalista y elegante que combina el ADN de Jordan con la visión de diseño de Fragment. Un clásico reinventado.",
+        "color": [
+            "Negro", "Blanco"
+        ]
+    },
+    {
+        "id": 96,
+        "name": "Jordan Retro 3",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro3/96_Negro_Gris_Blanco_Rojo_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Jordan Retro 3: El icónico elefante print y la amortiguación visible se unen en este clásico atemporal.",
+        "color": [
+            "Negro", "Gris", "Blanco", "Rojo"
+        ]
+    },
+    {
+        "id": 97,
+        "name": "Air Jordan 3 Fragment",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro3/97_Blanco_Negro_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Jordan Retro 3 Fragment: Una colaboración minimalista y elegante que combina el ADN de Jordan con la visión de diseño de Fragment. Un clásico reinventado.",
+        "color": [
+            "Blanco", "Negro"
+        ]
+    },
+    {
+        "id": 98,
+        "name": "Nike Air Max 720",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMax720/98_Negro_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Nike Air Max 720: La unidad Air más alta hasta la fecha para una amortiguación increíble y un look futurista. Siente el aire.",
+        "color": [
+            "Negro"
+        ]
+    },
+    {
+        "id": 99,
+        "name": "Nike Air Max 720",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMax720/99_Negro_Blanco_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Nike Air Max 720: La unidad Air más alta hasta la fecha para una amortiguación increíble y un look futurista. Siente el aire.",
+        "color": [
+            "Negro", "Blanco"
+        ]
+    },
+    {
+        "id": 100,
+        "name": "Jordan Retro 1 Mid",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro1Mid/100_Negro_Blanco_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Jordan Retro 1 Mid: El legendario estilo del AJ1 en un corte medio, ofreciendo versatilidad y un look icónico para cualquier ocasión.",
+        "color": [
+            "Negro", "Blanco"
+        ]
+    },
+    {
+        "id": 101,
+        "name": "Nike Air Zoom Pegasus",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airZoomPegasus/101_Negro_Plata_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Nike Air Zoom Pegasus: Un caballo de batalla para tus carreras, ahora con detalles premium. Amortiguación y respuesta para devorar kilómetros con estilo.",
+        "color": [
+            "Negro", "Plata"
+        ]
+    },
+    {
+        "id": 102,
+        "name": "Nike Air Zoom",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airZoom/102_Blanco_Negro_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Nike Air Zoom: Diseñadas para la velocidad, estas zapatillas combinan una amortiguación reactiva con un diseño aerodinámico para ayudarte a superar tus marcas.",
+        "color": [
+            "Blanco", "Negro"
+        ]
+    },
+    {
+        "id": 103,
+        "name": "Nike Air Zoom",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airZoom/103_Negro_Blanco_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Nike Air Zoom: Diseñadas para la velocidad, estas zapatillas combinan una amortiguación reactiva con un diseño aerodinámico para ayudarte a superar tus marcas.",
+        "color": [
+            "Negro", "Blanco"
+        ]
+    },
+    {
+        "id": 104,
+        "name": "Nike Air Zoom Pegasus",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airZoomPegasus/104_Blanco_Negro_Verde_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Nike Air Zoom Pegasus: Un caballo de batalla para tus carreras. Amortiguación y respuesta para devorar kilómetros con estilo.",
+        "color": [
+            "Blanco", "Negro", "Verde"
+        ]
+    },
+    {
+        "id": 105,
+        "name": "Nike ZoomX Invincible Run",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/zoomXInvincibleRun/105_Negro_Azul_Morado_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Nike ZoomX Invincible Run: Máxima amortiguación para tus carreras más largas. Siente la suavidad y el retorno de energía de la espuma ZoomX.",
+        "color": [
+            "Negro", "Azul", "Morado"
+        ]
+    },
+    {
+        "id": 106,
+        "name": "Nike Air Zoom Pegasus 41",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airZoomPegasus41/106_Blanco_Rosa_Azul_Negro_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Nike Air Zoom Pegasus 41: La última evolución del icónico Pegasus. Comodidad confiable y un andar enérgico para tus carreras diarias.",
+        "color": [
+            "Blanco", "Rosa", "Azul", "Negro"
+        ]
+    },
+    {
+        "id": 107,
+        "name": "Nike Zoom Fly",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/zoomFly/107_Blanco_Azul_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Nike Zoom Fly: Diseñadas para romper récords. La combinación de espuma reactiva y placa de carbono te impulsa hacia adelante en cada zancada.",
+        "color": [
+            "Blanco", "Azul"
+        ]
+    },
+    {
+        "id": 108,
+        "name": "Nike Zoom Fly",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/zoomFly/108_Blanco_Rosa_Negro_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Nike Zoom Fly: Diseñadas para romper récords. La combinación de espuma reactiva y placa de carbono te impulsa hacia adelante en cada zancada.",
+        "color": [
+            "Blanco", "Rosa", "Negro"
+        ]
+    },
+    {
+        "id": 109,
+        "name": "Nike ZoomX Invincible Run",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/zoomXInvincibleRun/109_Negro_Blanco_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Nike ZoomX Invincible Run: Máxima amortiguación para tus carreras más largas. Siente la suavidad y el retorno de energía de la espuma ZoomX.",
+        "color": [
+            "Negro", "Blanco"
+        ]
+    },
+    {
+        "id": 110,
+        "name": "Nike Shox TL",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/shoxTL/110_Blanco_Plata_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Nike Shox TL: El regreso de un ícono. Amortiguación mecánica y un look agresivo que no pasa desapercibido. Estilo retro-futurista.",
+        "color": [
+            "Blanco", "Plata"
+        ]
+    },
+    {
+        "id": 111,
+        "name": "Nike Air Max Plus",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxPlus/111_Negro_Rojo_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Nike Air Max Plus: Diseño audaz con tecnología Tuned Air para una comodidad superior y un estilo que no pasa desapercibido.",
+        "color": [
+            "Negro", "Rojo"
+        ]
+    },
+    {
+        "id": 112,
+        "name": "Nike Shox TL",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/shoxTL/112_Negro_Plata_1.jpeg"
+        ],
+        "sizes": [
+            2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9
+        ],
+        "description": "Nike Shox TL: El regreso de un ícono. Amortiguación mecánica y un look agresivo que no pasa desapercibido. Estilo retro-futurista.",
+        "color": [
+            "Negro", "Plata"
+        ]
+    },
+    {
+        "id": 113,
+        "name": "Nike Air Max 270",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMax270/113_Negro_Blanco_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Nike Air Max 270: Con la primera unidad Max Air creada específicamente para Sportswear, ofrece comodidad visible y estilo audaz.",
+        "color": ["Negro", "Blanco"]
+    },
+    {
+        "id": 114,
+        "name": "Nike Air Max Pulse",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxPulse/114_Negro_Blanco_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Nike Air Max Pulse: Inspirado en la escena musical de Londres, este modelo combina un diseño urbano y resistente con la increíble comodidad de la amortiguación Air.",
+        "color": ["Negro", "Blanco"]
+    },
+    {
+        "id": 115,
+        "name": "Nike Air Max Pulse",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxPulse/115_Blanco_Rosa_Azul_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Nike Air Max Pulse: Inspirado en la escena musical de Londres, este modelo combina un diseño urbano y resistente con la increíble comodidad de la amortiguación Air.",
+        "color": ["Blanco", "Rosa", "Azul"]
+    },
+    {
+        "id": 116,
+        "name": "Nike Zoom Fly 5",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/zoomFly5/116_Negro_Blanco_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Nike Zoom Fly 5: Diseñadas para tus entrenamientos y carreras, estas zapatillas ofrecen un equilibrio perfecto entre comodidad y propulsión, gracias a la espuma ZoomX y su placa de fibra de carbono.",
+        "color": ["Negro", "Blanco"]
+    },
+    {
+        "id": 117,
+        "name": "Nike Air Zoom Pegasus",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airZoomPegasus/117_Negro_Rosa_Azul_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Nike Air Zoom Pegasus: Un caballo de batalla para tus carreras. Amortiguación y respuesta para devorar kilómetros con estilo.",
+        "color": ["Negro", "Rosa", "Azul"]
+    },
+    {
+        "id": 118,
+        "name": "Nike Air Zoom Pegasus",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airZoomPegasus/118_Azul_Rosa_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Nike Air Zoom Pegasus: Un caballo de batalla para tus carreras. Amortiguación y respuesta para devorar kilómetros con estilo.",
+        "color": ["Azul", "Rosa"]
+    },
+    {
+        "id": 119,
+        "name": "Jordan Retro 3",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro3/119_Blanco_Gris_Rojo_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Jordan Retro 3: El icónico elefante print y la amortiguación visible se unen en este clásico atemporal.",
+        "color": ["Blanco", "Gris", "Rojo"]
+    },
+    {
+        "id": 120,
+        "name": "Nike Air Max Pulse",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxPulse/120_Blanco_Rosa_Azul_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Nike Air Max Pulse: Inspirado en la escena musical de Londres, este modelo combina un diseño urbano y resistente con la increíble comodidad de la amortiguación Air.",
+        "color": ["Blanco", "Rosa", "Azul"]
+    },
+    {
+        "id": 121,
+        "name": "Jordan Luka 1",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanLuka1/121_Verde_Negro_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Jordan Luka 1: Diseñadas para el juego de Luka Dončić, estas zapatillas ofrecen control y estabilidad en cada movimiento. Ligeras y reactivas para dominar la cancha.",
+        "color": ["Verde", "Negro"]
+    },
+    {
+        "id": 122,
+        "name": "Jordan Delta 3 Low",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanDelta3Low/122_Negro_Blanco_Rojo_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Jordan Delta 3 Low: Un look futurista con comodidad premium. La combinación de materiales de alta tecnología y espuma Formula 23 ofrece una pisada suave y un estilo vanguardista.",
+        "color": ["Negro", "Blanco", "Rojo"]
+    },
+    {
+        "id": 123,
+        "name": "Jordan Tatum 1",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanTatum1/123_Negro_Verde_Rojo_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Jordan Tatum 1: Ligeras, reactivas y diseñadas para el juego eficiente de Jayson Tatum. Siente la cancha y muévete con confianza gracias a su diseño minimalista y su unidad Zoom Air.",
+        "color": ["Negro", "Verde", "Rojo"]
+    },
+    {
+        "id": 124,
+        "name": "Jordan Retro 12",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro12/124_Negro_Gris_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Jordan Retro 12: Con su diseño inspirado en la bandera del sol naciente de Japón, este modelo es un símbolo de durabilidad y estilo. Un clásico que marcó una era.",
+        "color": ["Negro", "Gris"]
+    },
+    {
+        "id": 125,
+        "name": "Jordan Zion 2",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanZion2/125_Negro_Blanco_Rojo_Azul_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Jordan Zion 2: Diseñadas para el poder y la velocidad de Zion Williamson. Ofrecen sujeción en el talón y el mediopié, con una amortiguación reactiva para jugadas explosivas.",
+        "color": ["Negro", "Blanco", "Rojo", "Azul"]
+    },
+    {
+        "id": 126,
+        "name": "Jordan Retro 12",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro12/126_Negro_Rojo_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Jordan Retro 12: Con su diseño inspirado en la bandera del sol naciente de Japón, este modelo es un símbolo de durabilidad y estilo. Un clásico que marcó una era.",
+        "color": ["Negro", "Rojo"]
+    },
+    {
+        "id": 127,
+        "name": "Jordan Retro 12",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro12/127_Blanco_Azul_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Jordan Retro 12: Con su diseño inspirado en la bandera del sol naciente de Japón, este modelo es un símbolo de durabilidad y estilo. Un clásico que marcó una era.",
+        "color": ["Blanco", "Azul"]
+    },
+    {
+        "id": 128,
+        "name": "Jordan Flight Club 91",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanFlightClub91/128_Blanco_Gris_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Jordan Flight Club 91: Inspirado en el legendario Air Jordan 6, este modelo ofrece un look clásico de baloncesto con una comodidad moderna. Un homenaje a la era dorada de Jordan.",
+        "color": ["Blanco", "Gris"]
+    },
+    {
+        "id": 129,
+        "name": "Jordan Flight Club 91",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanFlightClub91/129_Negro_Rojo_Blanco_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Jordan Flight Club 91: Inspirado en el legendario Air Jordan 6, este modelo ofrece un look clásico de baloncesto con una comodidad moderna. Un homenaje a la era dorada de Jordan.",
+        "color": ["Negro", "Rojo", "Blanco"]
+    },
+    {
+        "id": 130,
+        "name": "Jordan Flight Club 91",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanFlightClub91/130_Negro_Dorado_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Jordan Flight Club 91: Inspirado en el legendario Air Jordan 6, este modelo ofrece un look clásico de baloncesto con una comodidad moderna. Un homenaje a la era dorada de Jordan.",
+        "color": ["Negro", "Dorado"]
+    },
+    {
+        "id": 131,
+        "name": "Jordan Retro 12",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/jordanRetro12/131_Blanco_Rojo_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Jordan Retro 12: Con su diseño inspirado en la bandera del sol naciente de Japón, este modelo es un símbolo de durabilidad y estilo. Un clásico que marcó una era.",
+        "color": ["Blanco", "Rojo"]
+    },
+    {
+        "id": 132,
+        "name": "Nike Zoom Fly 5",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/zoomFly5/132_Blanco_Negro_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Nike Zoom Fly 5: Diseñadas para tus entrenamientos y carreras, estas zapatillas ofrecen un equilibrio perfecto entre comodidad y propulsión, gracias a la espuma ZoomX y su placa de fibra de carbono.",
+        "color": ["Blanco", "Negro"]
+    },
+    {
+        "id": 133,
+        "name": "Nike Air Max Plus",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMaxPlus/133_Negro_Azul_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Nike Air Max Plus: Diseño audaz con tecnología Tuned Air para una comodidad superior y un estilo que no pasa desapercibido.",
+        "color": ["Negro", "Azul"]
+    },
+    {
+        "id": 134,
+        "name": "Nike Air Max 270",
+        "brand": "Nike",
+        "price": 2000,
+        "images": [
+            "assets/catalog/nike/airMax270/134_Negro_Rosa_1.jpeg"
+        ],
+        "sizes": [2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.8, 9],
+        "description": "Nike Air Max 270: Con la primera unidad Max Air creada específicamente para Sportswear, ofrece comodidad visible y estilo audaz.",
+        "color": ["Negro", "Rosa"]
     }
-]; // Cierre del array 'products'
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 const childrenProducts = [
